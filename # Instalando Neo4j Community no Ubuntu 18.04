@@ -31,8 +31,20 @@ docker run -v $(pwd):/home/pibiti_marcos/scripts -p 7474:7474 -p 7687:7687 --rm 
 
 neo4j start
 
+
 # Dicionario de dados - Bolsa Familia
 http://www.portaltransparencia.gov.br/pagina-interna/603397-dicionario-de-dados-bolsa-familia-pagamentos
 
 #Links de auxilio
 https://pt.switch-case.com/61746810
+
+#Script para popular neo4j
+Adicionar conexão GRAPH = Graph("bolt://localhost:7687", auth=("neo4j","pibiti"))
+
+
+
+
+
+
+
+
