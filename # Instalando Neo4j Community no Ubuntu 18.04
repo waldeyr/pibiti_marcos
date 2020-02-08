@@ -6,6 +6,7 @@ echo 'deb https://debian.neo4j.org/repo stable/' | tee /etc/apt/sources.list.d/n
 apt-get update -y
 apt-get install neo4j
 
+# Instalação para rodar script python
 
 apt install python3 python python3-dev python-dev python3-pip python-pip 
 
